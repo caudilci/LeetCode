@@ -7,7 +7,6 @@ class Solution:
         last_start = 0
         while end != len(s):
             if current.find(s[end]) == -1:
-                print
                 current = current + s[end]
             else:
                 last_start = start
